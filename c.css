@@ -1,0 +1,384 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    height: 500px;
+    background-image: url("c.PNG");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header{
+    height: 80px;
+}
+.head header h2{
+    color: white;
+    font-size: 25px;
+    float: left;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.head header h2:hover{
+    color: rgb(218, 113, 113);
+}
+.head header ul li{
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    padding: 30px 10px;
+    cursor: pointer;
+}
+.head header ul li:hover{
+    color: rgb(218, 113, 113);
+}
+.head header ul{
+    float: right;
+    padding-right: 50px;
+}
+.head_text{
+    position: absolute;
+    height: 150;
+    text-align: center;
+    width: 100%;
+    top: 170px;
+    line-height: 60px;
+}
+.head_text h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40;
+    font-weight: 800;
+}
+.head_text p{
+    color: rgb(218, 113, 113);
+    font-size: 30px;
+    font-weight: 800;
+}
+.head_text button{
+    color: white;
+    background-color: rgb(214, 62, 62);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-color: red;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.head_text button:hover{
+    background-color: rgb(212, 85, 85);
+    font-size: 18px;
+}
+/* --------- */
+.MAGNA{
+    background-color: rgba(245, 241, 241, 0.979);
+    text-align: center;
+    height: 700;
+}
+.MAGNA h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color:rgb(100, 100, 100);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MAGNA img{
+    width: 90px;
+    height: 17px;
+}
+.MAGNA p{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color:rgb(131, 131, 131);
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.MAGNA_con{
+    display: inline;
+}
+.con1 , .con2 , .con3{
+    width: 370px;
+    height: 250;
+    float: left;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    background-color: white;
+    box-shadow:0 3px 0 0 rgba(0, 0, 0, 0.137);
+}
+.con1:hover , .con2:hover , .con3:hover{
+    width: 400px;
+    height: 280;
+    float: left;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    background-color: white;
+    box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.137);
+    
+}
+.con1 img , .con2 img , .con3 img{
+    height: 80px;
+    width: 70px;
+    padding: 20px;
+}
+.con1:hover img , .con2:hover img , .con3:hover img{
+    height: 100px;
+    width: 85px;
+    padding: 20px;
+}
+.MAGNA_con h4{
+    padding-top: 10px;
+    color:rgb(100, 100, 100);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.con1:hover h4 , .con2:hover h4 , .con3:hover h4{
+    padding-top: 10px;
+    color:rgb(100, 100, 100);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.con1 p , .con2 p , .con3 p{
+    padding-top: 20px;
+    color:rgb(131, 131, 131);
+    font-size: 17px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.con1:hover p , .con2:hover p , .con3:hover p{
+    padding-top: 20px;
+    color:rgb(131, 131, 131);
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* --------- */
+.CONSECTETUER{
+    height: 1100px;
+    background-color: #e96c77;
+    text-align: center;
+}
+.CONSECTETUER h3{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    color:white;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.CONSECTETUER img{
+    width: 90px;
+    height: 17px;
+}
+.CONSECTETUER p{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.CONSECTETUER_con{
+    width: 100%;
+}
+.first_row  {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 35px;
+}
+.second_row{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 35px;
+}
+.col1 , .col2 , .col3 , .col4{
+    width: 400px;
+    padding: 20px 20px;
+    background-color: #ec828d;
+    height: 300px; 
+    display: inline-block;
+    margin-right: 35px;
+    text-align: center;
+}
+.col1:hover , .col2:hover , .col3:hover , .col4:hover{
+    width: 420px;
+    padding: 20px 20px;
+    background-color: #ec828d;
+    height: 320px;
+    margin-right: 15px;
+    text-align: center;
+}
+.col1 img, .col2 img, .col3 img, .col4 img{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+}
+.col1:hover img , .col2:hover img , .col3:hover img, .col4:hover:hover img{
+    height: 100px;
+    width: 85px;
+    padding: 20px;
+}
+.col1 h2, .col2 h2, .col3 h2, .col4 h2{
+    padding-top: 10px;
+    color:white;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.col1:hover h2 , .col2:hover h2 , .col3:hover h2 ,.col4:hover h2{
+    padding-top: 10px;
+    color:white;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.col1 h4, .col2 h4, .col3 h4, .col4 h4{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    font-size: 17px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.col1:hover h4 , .col2:hover h4 , .col3:hover h4 , .col4:hover h4{
+    padding-top: 20px;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* --------- */
+.SED{
+    text-align: center;
+    height: 600px;
+}
+.SED h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color:rgb(70, 70, 70);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.SED_con{
+    display: inline;
+}
+.sed1 , .sed2 , .sed3{
+    width: 370px;
+    height: 250;
+    float: left;
+    padding: 10px 20px;
+    margin: 20px 20px;
+}
+.SED_con img{
+    width: 400px;
+}
+.SED_con h2{
+    padding-top: 20px;
+    color:rgb(70, 70, 70);
+}
+.SED_con h4{
+    padding: 20px 30px;
+    color: gray;
+}
+.SED_con button{
+    padding: 10px 30px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 900;
+    color:rgb(70, 70, 70);
+    margin-top: 20px;
+}
+.SED_con button:hover{
+    padding: 10px 30px;
+    border: 1px solid gainsboro;
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+    font-weight: 900;
+    color:rgb(70, 70, 70);
+    margin-top: 20px;
+}
+/* --------- */
+.contact{
+    height: 750px;
+    background-color: #efefef;
+    text-align: center;
+}
+.contact h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #555555;
+}
+.contact p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #808080;
+    margin: 5px 150px;
+}
+.contact .contact_item {
+    height: 420px;
+    width: 700px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+.contact .contact_item .message {
+    width: 55%;
+    float: left;
+    height: 100%;
+    padding-top: 30px;
+}
+.contact .contact_item .contact_us {
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding-top: 20px;
+    border-left: 1px solid #00000000;
+}
+.contact .contact_item .message .text, .contact .contact_item .message .email {
+    width: 70%;
+    display: block;
+    margin: 20px 40px;
+    padding: 10px 20px;
+}
+.contact .contact_item .message .area {
+    width: 70%;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    height: 100px;
+}
+.contact .contact_item .message button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:rgb(218, 27, 27);
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    border-color:rgb(218, 27, 27) ;
+    margin-left: 40px;
+}
+.contact .contact_item .message .reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5b5c6b;
+    color: #fff;
+    border-color: #5b5c6b ;
+    cursor: pointer;
+    float: left;
+    margin-left: 25px;
+}
